@@ -1,7 +1,15 @@
 #!/bin/bash
 
-cd ~/Desktop/Youtube_vids/App
+cd ~/Desktop
 
+touch Youtube_vids
+
+cd ~/Desktop/Youtube_vids
+
+touch App
+
+cd ~/Desktop/Youtube_vids/App 
+ 
 python3 yt_download.py
 
 exit 
