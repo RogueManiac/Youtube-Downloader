@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd ~/Desktop/Youtube_vids/App
+
+python3 yt_download.py
+
+exit 
