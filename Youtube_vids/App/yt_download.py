@@ -28,6 +28,9 @@ def activate():
 
     yt = pytube.YouTube(link)
     
+    if not Title:
+        Title = yt.title
+    
     video = yt.streams.first()
     
     if sound:
